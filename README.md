@@ -36,3 +36,4 @@ __Prior to the hackday, please list a few (2-3) use cases to consider/generate i
 1. Compiling and deploying cookieDaemon securely (with passwords, ssh keys, etc stored in [vault](http://docs.ansible.com/playbooks_vault.html))
 2. Building/updating/deploying docker images on local resources (local registry, no docker hub)
 
+### Your use cases here
