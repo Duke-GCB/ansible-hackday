@@ -23,10 +23,10 @@ To have a productive hackday, everyone should familiarize themselves with:
 
 ## Examples/resources/further reading
 
-[ansible-examples](https://github.com/ansible/ansible-examples) Ansible's own examples for playbooks demonstrating best practices
-[Playbooks special topics](http://docs.ansible.com/playbooks_special_topics.html) - advanced or clever tricks for playbooks - step debugging, dry-run, lookups, tags, vault
-[GCB's ansible playbooks on gitorious](https://gitorious.oit.duke.edu/gcb-it/ansible_playbooks) - Limited use for now - focused on a few web applications, but shows a concrete example of what can be done
-[Ansible Galaxy](https://galaxy.ansible.com) - Community repository of playbooks for reuse. Like GitHub for ansible playbooks.
+- [ansible-examples](https://github.com/ansible/ansible-examples) Ansible's own examples for playbooks demonstrating best practices
+- [Playbooks special topics](http://docs.ansible.com/playbooks_special_topics.html) - advanced or clever tricks for playbooks - step debugging, dry-run, lookups, tags, vault
+- [GCB's ansible playbooks on gitorious](https://gitorious.oit.duke.edu/gcb-it/ansible_playbooks) - Limited use for now - focused on a few web applications, but shows a concrete example of what can be done
+- [Ansible Galaxy](https://galaxy.ansible.com) - Community repository of playbooks for reuse. Like GitHub for ansible playbooks.
 
 ## Targets
 
