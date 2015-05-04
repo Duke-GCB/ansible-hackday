@@ -30,7 +30,7 @@ To have a productive hackday, everyone should familiarize themselves with:
 
 ## Targets
 
-__Prior to the hackday, please list a few (2-3) use cases to consider/generate ideas__
+__Prior to the hackday, please [list a few (2-3) use cases](https://github.com/Duke-GCB/ansible-hackday/issues/1) to consider/generate ideas__
 
 ### Dan L:
 1. Compiling and deploying cookieDaemon securely (with passwords, ssh keys, etc stored in [vault](http://docs.ansible.com/playbooks_vault.html))
