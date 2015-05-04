@@ -11,12 +11,13 @@ Please feel free to append to this file before the hackday, especially to includ
 
 To have a productive hackday, everyone should familiarize themselves with:
 
-1. [Installing Ansible](http://docs.ansible.com/intro_installation.html#installing-the-control-machine) aka Ansible Core - the command-line application. Ansible's [main website](http://ansible.com) makes it hard to discover that there is a [FOSS python command-line application](https://github.com/ansible/ansible
+1. [How ansible works](http://www.ansible.com/how-ansible-works)
+2. [Installing Ansible](http://docs.ansible.com/intro_installation.html#installing-the-control-machine) aka Ansible Core - the command-line application. Ansible's [main website](http://ansible.com) makes it hard to discover that there is a [FOSS python command-line application](https://github.com/ansible/ansible
 ) called `ansible`, which is what we're primarily interested in. The [docs](http://docs.ansible.com) are great though, and ansible can be installed with your package manager of choice (yum/apt/brew), with python's `pip`, or from source.
-2. The infrastructure pieces - how ansible runs, and how this compares to other provisioning/config systems:
+3. The infrastructure pieces - how ansible runs, and how this compares to other provisioning/config systems:
   - a "control machine" where ansible itself executes (typically on-demand)
   - one or more managed nodes that are configured by the control machine.
-3. The functional pieces - how to configure ansible to do your bidding:
+4. The functional pieces - how to configure ansible to do your bidding:
   - [Inventories](http://docs.ansible.com/intro_inventory.html) - Lists of hosts (managed nodes) and their groupings (e.g. web servers, database servers)
   - [Playbooks](http://docs.ansible.com/playbooks.html) - recipes that the control machine executes on a managed node. [Best Practices](https://docs.ansible.com/playbooks_best_practices.html)
   - [Modules](http://docs.ansible.com/modules_by_category.html) - the steps in the recipe, tailored to specific software packages (e.g. the [yum module](http://docs.ansible.com/yum_module.html#examples) will install packages via yum declaratively.
