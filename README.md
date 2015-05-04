@@ -3,6 +3,10 @@ References and materials for GCB Informatics Ansible Hackday
 
 GCB Informatics is running a hack day on May 7, 2015. This event will focus on automated provisioning of servers, specifically using [Ansible](http://ansible.com).
 
+## Contributing
+
+Please feel free to append to this file before the hackday, especially to include use cases or other references. We do not plan to make __playbooks__ public, but methods/resources and tasks for the the hackday should be tracked in this repo.
+
 ## Preparation
 
 To have a productive hackday, everyone should familiarize themselves with:
