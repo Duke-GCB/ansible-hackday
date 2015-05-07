@@ -30,15 +30,12 @@ To have a productive hackday, everyone should familiarize themselves with:
 - [Ansible Galaxy](https://galaxy.ansible.com) - Community repository of playbooks for reuse. Like GitHub for ansible playbooks.
 - [ansible-role-firewall](https://github.com/geerlingguy/ansible-role-firewall) Firewall Role example
 
-## Targets
+## Target ideas:
 
-__Prior to the hackday, please [list a few (2-3) use cases](https://github.com/Duke-GCB/ansible-hackday/issues/1) to consider/generate ideas__
-
-1. Compiling and deploying cookieDaemon securely (with passwords, ssh keys, etc stored in [vault](http://docs.ansible.com/playbooks_vault.html)) (Dan L)
-1. Building/updating/deploying docker images on local resources (local registry, no docker hub) (Dan L)
-1. Deploying an rpm to all HARDAC nodes, or only to those in a partition. (Hilmar)
-1. Standing up a [Globus Online](https://www.globus.org/how-it-works) endpoint for a data volume (Hilmar)
-1. Deploying a [Galaxy](http://galaxyproject.org/) server (Hilmar)
-1. Standing up a local NCBI BLAST search machine complete with BLAST databases loaded (Hilmar)
-1. A user ran a rogue Docker container on `gemscompute01` and the VM is damaged beyond repair. Recreate the VM in a fully (or at least mostly) automated fashion. (Hilmar)
-1. **Your use case(s) here**
+1. Compiling and deploying cookieDaemon securely (with passwords, ssh keys, etc stored in [vault](http://docs.ansible.com/playbooks_vault.html))
+2. Building/updating/deploying docker images on local resources (local registry, no docker hub)
+3. Deploying an rpm to all HARDAC nodes, or only to those in a partition.
+4. Standing up a [Globus Online](https://www.globus.org/how-it-works) endpoint for a data volume
+5. Deploying a [Galaxy](http://galaxyproject.org/) server (Hilmar)
+6. Standing up a local NCBI BLAST search machine complete with BLAST databases loaded
+7. A user ran a rogue Docker container on `gemscompute01` and the VM is damaged beyond repair. Recreate the VM in a fully (or at least mostly) automated fashion.
