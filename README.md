@@ -39,4 +39,5 @@ __Prior to the hackday, please [list a few (2-3) use cases](https://github.com/D
 1. Standing up a [Globus Online](https://www.globus.org/how-it-works) endpoint for a data volume (Hilmar)
 1. Deploying a [Galaxy](http://galaxyproject.org/) server (Hilmar)
 1. Standing up a local NCBI BLAST search machine complete with BLAST databases loaded (Hilmar)
+1. A user ran a rogue Docker container on `gemscompute01` and the VM is damaged beyond repair. Recreate the VM in a fully (or at least mostly) automated fashion. (Hilmar)
 1. **Your use case(s) here**
