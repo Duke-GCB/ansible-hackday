@@ -36,9 +36,9 @@ Take a new VM from installed OS and having been registered for IP address in Pro
 
 - Starting point (pre-condiition): OS installed, IP address registered, networking enabled via DHCP, ansible user account with sudo privileges created, ssh key installed.
 - Ansible playbook steps:
-    * [ ] Register with RHN
-    * [ ] yum update
-    * [ ] reboot
+    * [x] Register with RHN
+    * [x] yum update
+    * [x] reboot
     * [ ] Firewall configured
     * [ ] Account authentication bound to Kerberos and LDAP
     * [ ] Repositories set for rpms
