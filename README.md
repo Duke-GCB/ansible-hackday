@@ -33,8 +33,7 @@ To have a productive hackday, everyone should familiarize themselves with:
 
 __Prior to the hackday, please [list a few (2-3) use cases](https://github.com/Duke-GCB/ansible-hackday/issues/1) to consider/generate ideas__
 
-### Dan L:
-1. Compiling and deploying cookieDaemon securely (with passwords, ssh keys, etc stored in [vault](http://docs.ansible.com/playbooks_vault.html))
-2. Building/updating/deploying docker images on local resources (local registry, no docker hub)
-
-### Your use cases here
+1. Compiling and deploying cookieDaemon securely (with passwords, ssh keys, etc stored in [vault](http://docs.ansible.com/playbooks_vault.html)) (Dan L)
+2. Building/updating/deploying docker images on local resources (local registry, no docker hub) (Dan L)
+3. Standing up a Globus Online endpoint for a data volume (Hilmar)
+4. **Your use case(s) here**
