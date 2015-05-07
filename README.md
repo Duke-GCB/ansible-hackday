@@ -34,8 +34,9 @@ To have a productive hackday, everyone should familiarize themselves with:
 __Prior to the hackday, please [list a few (2-3) use cases](https://github.com/Duke-GCB/ansible-hackday/issues/1) to consider/generate ideas__
 
 1. Compiling and deploying cookieDaemon securely (with passwords, ssh keys, etc stored in [vault](http://docs.ansible.com/playbooks_vault.html)) (Dan L)
-2. Building/updating/deploying docker images on local resources (local registry, no docker hub) (Dan L)
-3. Standing up a [Globus Online](https://www.globus.org/how-it-works) endpoint for a data volume (Hilmar)
-4. Deploying a [Galaxy](http://galaxyproject.org/) server (Hilmar)
-5. Standing up a local NCBI BLAST search machine complete with BLAST databases loaded (Hilmar)
-4. **Your use case(s) here**
+1. Building/updating/deploying docker images on local resources (local registry, no docker hub) (Dan L)
+1. Deploying an rpm to all HARDAC nodes, or only to those in a partition. (Hilmar)
+1. Standing up a [Globus Online](https://www.globus.org/how-it-works) endpoint for a data volume (Hilmar)
+1. Deploying a [Galaxy](http://galaxyproject.org/) server (Hilmar)
+1. Standing up a local NCBI BLAST search machine complete with BLAST databases loaded (Hilmar)
+1. **Your use case(s) here**
