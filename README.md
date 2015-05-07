@@ -30,6 +30,19 @@ To have a productive hackday, everyone should familiarize themselves with:
 - [Ansible Galaxy](https://galaxy.ansible.com) - Community repository of playbooks for reuse. Like GitHub for ansible playbooks.
 - [ansible-role-firewall](https://github.com/geerlingguy/ansible-role-firewall) Firewall Role example
 
+## Target(s)
+
+Take a new VM from installed OS and having been registered for IP address in Proteus to being fully configured for provisioning to requester and/or purpose.
+
+- Starting point (pre-condiition): OS installed, IP address registered, networking enabled via DHCP, ansible user account with sudo privileges created, ssh key installed.
+- Ansible playbook steps:
+    * [ ] Register with RHN
+    * [ ] yum update
+    * [ ] reboot
+    * [ ] Firewall configured
+    * [ ] Account authentication bound to Kerberos and LDAP
+    * [ ] Repositories set for rpms
+
 ## Target ideas:
 
 1. Compiling and deploying cookieDaemon securely (with passwords, ssh keys, etc stored in [vault](http://docs.ansible.com/playbooks_vault.html))
