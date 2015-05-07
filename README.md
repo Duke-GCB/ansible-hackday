@@ -28,7 +28,8 @@ To have a productive hackday, everyone should familiarize themselves with:
 - [Playbooks special topics](http://docs.ansible.com/playbooks_special_topics.html) - advanced or clever tricks for playbooks - step debugging, dry-run, lookups, tags, vault
 - [GCB's ansible playbooks on gitorious](https://gitorious.oit.duke.edu/gcb-it/ansible_playbooks) - Limited use for now - focused on a few web applications, but shows a concrete example of what can be done
 - [Ansible Galaxy](https://galaxy.ansible.com) - Community repository of playbooks for reuse. Like GitHub for ansible playbooks.
-
+- [ansible-role-firewall](https://github.com/geerlingguy/ansible-role-firewall) Firewall
+- 
 ## Targets
 
 __Prior to the hackday, please [list a few (2-3) use cases](https://github.com/Duke-GCB/ansible-hackday/issues/1) to consider/generate ideas__
